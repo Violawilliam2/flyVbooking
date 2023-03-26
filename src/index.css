@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media screen and (max-width: 500px) {
+    .small_screen {
+      text-align: center;
+      margin:auto;
+  }
+  .footer_social_media { 
+    width: 70%;
+    margin:auto;
+  }
+  }
