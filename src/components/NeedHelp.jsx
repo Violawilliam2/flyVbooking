@@ -6,8 +6,8 @@ import { AiOutlineWechat } from "react-icons/ai";
 
 function NeedHelp() {
   return (
-    <div className="bg-white py-8">
-      <h1 className="text-center text-2xl font-bold  py-8">Need Help</h1>
+    <div className="bg-white py-8" id="Help">
+      <h1 className="text-center text-2xl font-bold  py-8">Need Help?</h1>
       <div className="grid sm:grid-cols-1 md:grid-cols-4 xl:grid-cols-4 xl:grid-cols-4 gap-4 w-11/12 m-auto ">
         {/*  */}
         <div className="text-center ">

@@ -20,6 +20,20 @@
   text-align: center;
 }
 
+.mobile__view {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .mobile_visiblity{
+    /*  */
+  }
+  .menu_function {
+    position: absolute;
+    top: 15px;
+    right:15px;
+  }
+}
+
 @media screen and (max-width: 500px) {
     .small_screen {
       text-align: center;
