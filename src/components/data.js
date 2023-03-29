@@ -4,6 +4,9 @@ import paris from "../assets/umbrella-chair-around-beautiful-luxury-outdoor-swim
 import cairo from "../assets/panoramic-istanbul-city-twilight-turkey.jpg";
 import canada from "../assets/toronto-skyline-from-park.jpg";
 import pretoria from "../assets/complex-aerial-view-city.jpg";
+import x1 from '../assets/x1.jpg';
+import x2 from '../assets/x2.jpg';
+import x3 from '../assets/x3.jpg';
 
 export const city_destination = [
   {
@@ -25,7 +28,7 @@ export const city_destination = [
   {
     city: "London",
     country: "United Kinkdom",
-    id: "kjfddjjdkkks2",
+    id: "kj2",
     image: london,
     price: 500,
     date: "2 April 2023",
@@ -33,7 +36,7 @@ export const city_destination = [
   {
     city: "Cairo",
     country: "Egypt",
-    id: "kjfddjoldkkks2",
+    id: "vds2",
     image: cairo,
     price: 900,
     date: "29 March 2023",
@@ -54,4 +57,24 @@ export const city_destination = [
     price: 100,
     date: "29 June 2023",
   },
+];
+
+
+export const sliders = [
+  {
+    id: "dvc344",
+    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa earum deleniti dicta cum sed explicabo delectus nam sequi recusandae similique Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentiumveniam, natus dolor et quidem voluptate quis provident harum orruptiunde ullam explicabo autem! Sed, doloribus",
+    image: x1,
+  },
+  {
+    id: "uio344",
+    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa earum deleniti dicta cum sed explicabo delectus nam sequi recusandae similiqueLorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentiumveniam, natus dolor et quidem voluptate quis provident harum corruptiunde ullam explicabo autem! Sed, dolorus.",
+    image: x2,
+  },
+  {
+    id: "udv44",
+    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa earum deleniti dicta cum sed explicabo delectus nam sequi recusandae similiqueLorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentiu    veniam, natus dolor et quidem voluptate quis provident harum corruptiunde ullam explicabo autem! Sed, doloribus.",
+    image: x3,
+  },
+
 ];

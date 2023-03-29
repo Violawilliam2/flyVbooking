@@ -4,7 +4,7 @@
 
 .make_them_center {
   width: 20%;
-  margin:auto;
+  margin: auto;
 }
 .hotel{
   background-image: url("./assets/hotel.jpg");
@@ -19,30 +19,73 @@
   align-items: center;
   text-align: center;
 }
-
 .mobile__view {
   display: none;
 }
+
+.slider_image {
+  width: 100%;
+  height: 900px;
+  margin: auto;
+}
+.slider {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  height: 100%;
+}
+.text_slider {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+}
+
+/* .search_plane {
+  position: absolute;
+  top: 750px;
+  left: 115px;
+} */
+
 @media screen and (max-width: 600px) {
-  .mobile_visiblity{
+  .mobile_visiblity {
     /*  */
+  }
+   
+  .slider {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    height: 100%;
+  }
+  .text_slider {
+    position: absolute;
+    top: 200px;
+  }
+  .relative_post {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+  .text_slider {
+    position: absolute;
+    top: 2px;
+    font-size: 20px;
   }
   .menu_function {
     position: absolute;
     top: 15px;
-    right:15px;
+    right: 15px;
   }
 }
-
 @media screen and (max-width: 500px) {
-    .small_screen {
-      text-align: center;
-      margin:auto;
+  .small_screen {
+    text-align: center;
+    margin: auto;
+    align-items: center;
   }
-  .footer_social_media { 
+  .footer_social_media {
     width: 70%;
-    margin:auto;
+    margin: auto;
   }
-  }
-
-  
+}

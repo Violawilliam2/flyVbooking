@@ -12,13 +12,13 @@ function Navbar() {
     setOpen(false);
   };
   let navigations = [
-    { name: "Home", id: "jkfeofd2839" },
-    { name: "Trip", id: "jkfeofd283DD39" },
-    { name: "Destination", id: "jkdfe34ofd2839" },
-    { name: "Hotel", id: "jkfeofd2ds82339" },
-    { name: "Help", id: "jkfeofd2d24s839" },
-    { name: "Sign-Up", id: "jkfeodfdfd2d24s839" },
-    { name: "Sign-In", id: "jkfeofd2d24s839" },
+    { name: "Home", id: "jkd2839" },
+    { name: "Trip", id: "jkf3DD39" },
+    { name: "Destination", id: "je34ofd2839" },
+    { name: "Hotel", id: "jds82339" },
+    { name: "Help", id: "e2d24s839" },
+    { name: "Sign-Up", id: "d2d24s8099" },
+    { name: "Sign-In", id: "2d2g4s839" },
   ];
   return (
     <div className="bg-green-400">
