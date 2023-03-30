@@ -48,7 +48,7 @@ function WhyChoosingUs() {
           <img className="rounded" src={imagex} alt="ximage" />
         </div>
         <div className="">
-          <h1 className="text-2xl font-bold text-gray-800 ">Why you should choose us</h1>
+          <h1 className="text-3xl font-bold text-gray-800 ">Why you should choose us</h1>
           {textDestination.map((x) => (
             <div className="" key={x.id}>
               <span className="font-bold">____{x.indentifcation}</span>

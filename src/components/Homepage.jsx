@@ -32,12 +32,12 @@ function Homepage() {
           ))}
         </Slider>
         {/* form search plane */}
-        <div className="rounded-[10px] bg-gray-200 md:w-[80%] m-auto overflow-hidden search_plane md:absolute md:top-[800px] md:left-[200px] sm:top-[10px]">
+        <div className="rounded-[10px] bg-gray-200 md:w-[80%] m-auto overflow-hidden search_plane md:absolute md:top-[800px] md:left-[200px] sm:top-[600px]">
           <div className="header   grid sm:grid-cols-1 md:grid-cols-4 xl:grid-cols-4 bg-green-400 ">
-            <div className="bg-green-600 p-2 text-2xl">Search Flight</div>
-            <div className="p-2 text-2xl">Check In</div>
-            <div className="p-2 text-2xl">Manage Booking</div>
-            <div className="p-2 text-2xl">Flight Status</div>
+            <div className="bg-green-600 p-2 md:text-2xl">Search Flight</div>
+            <div className="p-2 md:text-2xl">Check In</div>
+            <div className="p-2 md:text-2xl">Manage Booking</div>
+            <div className="p-2 md:text-2xl">Flight Status</div>
           </div>
           <div className="flght_form p-4 ">
             <h1 className="text-xl font-bold py-2">
@@ -46,13 +46,13 @@ function Homepage() {
             <form onClick={() => {}}>
               <div className=" grid sm:grid-cols-1 md:grid-cols-4">
                 <div className="flex items-center my-4">
-                  <label htmlFor="from" className="p-2 text-1xl">
+                  <label htmlFor="from" className="p-2 md:text-2xl">
                     From
                   </label>
                   <select
                     name=""
                     id="from"
-                    className="outline-none rounded p-2  w-full"
+                    className="outline-none rounded p-2  w-full md:text-2xl"
                   >
                     <option value=" ">Select Destination</option>
                     <option value=" ">Juba</option>
@@ -63,13 +63,13 @@ function Homepage() {
                   </select>
                 </div>
                 <div className="flex items-center my-4">
-                  <label htmlFor="to" className="p-2 text-1xl">
+                  <label htmlFor="to" className="p-2 md:text-2xl">
                     To
                   </label>
                   <select
                     name=""
                     id="to"
-                    className="outline-none rounded p-2 w-full"
+                    className="outline-none rounded p-2 w-full md:text-2xl"
                   >
                     <option value=" ">Arrival Destination</option>
                     <option value=" ">Morocco</option>
@@ -80,36 +80,36 @@ function Homepage() {
                   </select>
                 </div>
                 <div className="flex items-center my-4">
-                  <label htmlFor="departing" className="p-2 text-1xl">
+                  <label htmlFor="departing" className="p-2 md:text-2xl">
                     Departing
                   </label>
                   <input
                     type="date"
                     id="departing"
-                    className="rounded p-2 w-full"
+                    className="rounded p-2 w-full md:text-2xl"
                   />
                 </div>
                 <div className="flex items-center my-4">
-                  <label htmlFor="returning" className="p-2 text-1xl">
+                  <label htmlFor="returning" className="p-2 md:text-2xl">
                     Returning
                   </label>
                   <input
                     type="date"
                     id="returning"
-                    className="rounded p-2 w-full"
+                    className="rounded p-2 w-full md:text-2xl"
                   />
                 </div>
               </div>
               {/* second input */}
               <div className="grid sm:grid-cols-1 md:grid-cols-3 my-4 items-center">
                 <div className="flex items-center py-4">
-                  <label htmlFor="class " className="p-2 text-1xl">
+                  <label htmlFor="class " className="p-2 md:text-2xl">
                     Class
                   </label>
                   <select
                     name=""
                     id="class"
-                    className="outline-none rounded p-2 w-full"
+                    className="outline-none rounded p-2 w-full md:text-2xl"
                   >
                     <option value="">Economy</option>
                     <option value="">First Class</option>
@@ -117,13 +117,13 @@ function Homepage() {
                   </select>
                 </div>
                 <div className="flex items-center my-4">
-                  <label htmlFor="class " className="p-2 ">
+                  <label htmlFor="class " className="p-2 md:text-2xl">
                     Passengers
                   </label>
                   <select
                     name=""
                     id="class"
-                    className="outline-none rounded p-2 w-full  "
+                    className="outline-none rounded p-2 w-full md:text-2xl "
                   >
                     <option value="">Adult </option>
                     <option value="">Infant</option>
@@ -132,7 +132,7 @@ function Homepage() {
                   <select
                     name=""
                     id=""
-                    className="outline-none rounded p-2 w-full mx-2"
+                    className="outline-none rounded p-2 w-full mx-2 md:text-2xl"
                   >
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -147,7 +147,7 @@ function Homepage() {
                   </select>
                 </div>
                 <div className="w-full p-4">
-                  <button className="bg-green-400 cursor-pointer border-none rounded-[20px] p-2   text-xl font-bold text-white w-full">
+                  <button className="bg-green-400 cursor-pointer border-none rounded-[20px] p-2   md:text-2xl font-bold text-white w-full">
                     Search Flight
                   </button>
                 </div>

@@ -77,6 +77,9 @@
     top: 15px;
     right: 15px;
   }
+  .slider_image {
+    height: 500px;
+  }
 }
 @media screen and (max-width: 500px) {
   .small_screen {
@@ -87,5 +90,16 @@
   .footer_social_media {
     width: 70%;
     margin: auto;
+  }
+
+  .slider_image {
+    height: 400px;
+  }
+
+  .text_slider {
+    top: 20px;
+    text-align: center;
+    line-height: 1.2;
+    
   }
 }
