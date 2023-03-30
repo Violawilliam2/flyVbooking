@@ -35,7 +35,7 @@ function WhyChoosingUs() {
   ];
   return (
     <div className="mt-[150px]">
-      <h1 className="text-3xl font-bold text-center my-8">
+      <h1 className="text-4xl font-bold text-center my-8 text-gray-600">
         All Services at V-fly
       </h1>
       <p className="text-center md:w-[60%] m-auto text-xl">
@@ -48,7 +48,7 @@ function WhyChoosingUs() {
           <img className="rounded" src={imagex} alt="ximage" />
         </div>
         <div className="">
-          <h1 className="text-2xl font-bold">Why you should choose us</h1>
+          <h1 className="text-2xl font-bold text-gray-800 ">Why you should choose us</h1>
           {textDestination.map((x) => (
             <div className="" key={x.id}>
               <span className="font-bold">____{x.indentifcation}</span>

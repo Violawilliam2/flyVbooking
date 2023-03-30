@@ -7,7 +7,7 @@ import { HiUserGroup } from "react-icons/hi";
 function PlanTrip() {
   return (
     <div className="w-11/12 m-auto" id="Trip">
-      <h1 className="centralize_it font-bold text-2xl text-gray-600 ">
+      <h1 className="centralize_it font-bold text-4xl text-gray-600 ">
         Plan your trip with us
       </h1>
 

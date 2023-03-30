@@ -51,7 +51,7 @@ function Navbar() {
               <a href={`#${x.name}`}>
                 <li
                   key={x.id}
-                  className="m-2 xl:m-4  xl:text-xl text-white cursor-pointer md:font-semibold"
+                  className="m-2 xl:m-4  xl:text-2xl text-white cursor-pointer md:font-semibold"
                 >
                   {x.name}
                 </li>

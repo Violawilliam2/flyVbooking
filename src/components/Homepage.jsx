@@ -34,10 +34,10 @@ function Homepage() {
         {/* form search plane */}
         <div className="rounded-[10px] bg-gray-200 md:w-[80%] m-auto overflow-hidden search_plane md:absolute md:top-[800px] md:left-[200px] sm:top-[10px]">
           <div className="header   grid sm:grid-cols-1 md:grid-cols-4 xl:grid-cols-4 bg-green-400 ">
-            <div className="bg-green-600 p-2">Search Flight</div>
-            <div className="p-2">Check In</div>
-            <div className="p-2">Manage Booking</div>
-            <div className="p-2">Flight Status</div>
+            <div className="bg-green-600 p-2 text-2xl">Search Flight</div>
+            <div className="p-2 text-2xl">Check In</div>
+            <div className="p-2 text-2xl">Manage Booking</div>
+            <div className="p-2 text-2xl">Flight Status</div>
           </div>
           <div className="flght_form p-4 ">
             <h1 className="text-xl font-bold py-2">
@@ -46,7 +46,7 @@ function Homepage() {
             <form onClick={() => {}}>
               <div className=" grid sm:grid-cols-1 md:grid-cols-4">
                 <div className="flex items-center my-4">
-                  <label htmlFor="from" className="p-2">
+                  <label htmlFor="from" className="p-2 text-1xl">
                     From
                   </label>
                   <select
@@ -63,7 +63,7 @@ function Homepage() {
                   </select>
                 </div>
                 <div className="flex items-center my-4">
-                  <label htmlFor="to" className="p-2">
+                  <label htmlFor="to" className="p-2 text-1xl">
                     To
                   </label>
                   <select
@@ -80,7 +80,7 @@ function Homepage() {
                   </select>
                 </div>
                 <div className="flex items-center my-4">
-                  <label htmlFor="departing" className="p-2">
+                  <label htmlFor="departing" className="p-2 text-1xl">
                     Departing
                   </label>
                   <input
@@ -90,7 +90,7 @@ function Homepage() {
                   />
                 </div>
                 <div className="flex items-center my-4">
-                  <label htmlFor="returning" className="p-2">
+                  <label htmlFor="returning" className="p-2 text-1xl">
                     Returning
                   </label>
                   <input
@@ -103,7 +103,7 @@ function Homepage() {
               {/* second input */}
               <div className="grid sm:grid-cols-1 md:grid-cols-3 my-4 items-center">
                 <div className="flex items-center py-4">
-                  <label htmlFor="class " className="p-2">
+                  <label htmlFor="class " className="p-2 text-1xl">
                     Class
                   </label>
                   <select
@@ -117,7 +117,7 @@ function Homepage() {
                   </select>
                 </div>
                 <div className="flex items-center my-4">
-                  <label htmlFor="class " className="p-2">
+                  <label htmlFor="class " className="p-2 ">
                     Passengers
                   </label>
                   <select
