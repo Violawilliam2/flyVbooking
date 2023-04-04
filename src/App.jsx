@@ -50,11 +50,9 @@ function App() {
               path="/payment"
               exact
               element={
-                !passengerStorage? (
-                  <Navigate replace to="/vflight" />
-                ) : (
+               
                   <PaymentScreen />
-                )
+                
               }
             />
             <Route path="/database" exact element={<Database />} />

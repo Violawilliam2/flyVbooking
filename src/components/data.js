@@ -1,6 +1,6 @@
-import casablanca from "../assets/umbrella-chair-around-beautiful-luxury-outdoor-swimming-pool-with-sea-ocean-view-hotel-resort-holiday-vacation-travel.jpg";
-import london from "../assets/toronto-skyline-from-park.jpg";
-import paris from "../assets/umbrella-chair-around-beautiful-luxury-outdoor-swimming-pool-with-sea-ocean-view-hotel-resort-holiday-vacation-travel.jpg";
+import marco from "../assets/marco.jpg";
+import london from "../assets/london.jpg";
+import paris from "../assets/paris.jpg";
 import cairo from "../assets/panoramic-istanbul-city-twilight-turkey.jpg";
 import canada from "../assets/toronto-skyline-from-park.jpg";
 import pretoria from "../assets/complex-aerial-view-city.jpg";
@@ -15,7 +15,7 @@ export const city_destination = [
     city: "Casablanca",
     country: "Morocco",
     id: "kjfdk12",
-    image: casablanca,
+    image: marco,
     price: 120,
     date: "27 March 2023",
   },
