@@ -46,6 +46,44 @@
   left: 115px;
 } */
 
+.left-ticket {
+  border-left: 3px dotted #635c5c;
+}
+
+/* formdata input */
+.input_data {
+  display: flex;
+  flex-direction: column;
+  margin: 10 0;
+}
+.input_data > label {
+  font-size: 1.5rem;
+  color: rgb(79, 78, 78);
+}
+.input_data > input {
+  padding: 10px;
+  background-color: rgb(223, 223, 223);
+  outline: none;
+}
+.input_data > select {
+  padding: 10px;
+  background-color: rgb(223, 223, 223);
+  outline: none;
+}
+.primary__button {
+  padding: 10px;
+  color: white;
+  margin: 15px 0;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.loaderx {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(241, 242, 243);
+}
+
+
 @media screen and (max-width: 600px) {
   .mobile_visiblity {
     /*  */
